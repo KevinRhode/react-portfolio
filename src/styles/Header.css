@@ -1,13 +1,25 @@
 .header {
-    background: #f9b713;
-    min-height: 200px;
-  }
+  background: #f9b713;
+  min-height: 200px;
+}
   
-  .header h1 {
+.header h1 {
     margin: 0;
     padding-top: 75px;
     text-align: center;
     color: white;
     font-size: 3rem;
-  }
+}
   
+.nav.nav-tabs{
+    list-style-type: none;
+    display: flex;
+}
+.headerGroup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item{
+  margin: 0rem 0.5rem;
+}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
+// import NavTabs from './NavTabs';
 // import Home from './pages/Home';
 import About from './pages/About';
 import Header from './Header';
@@ -14,11 +14,7 @@ export default function Navigation() {
   const renderPage = () => {
     if (currentPage === 'Home') {
       return (
-        <>
-         
          <About />
-        </>    
-      
       );
     }
     if (currentPage === 'About') {

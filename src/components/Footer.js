@@ -1,8 +1,16 @@
 import React from "react";
+import GitHubIcon from "./GitHubIcon";
+import LinkedInIcon from "./LinkedInIcon";
+import ResumeIcon from "./ResumeIcon";
 
 function Footer(){
     return (
-        <h3>Footer</h3>
+        
+        <>
+        <GitHubIcon/>
+        <LinkedInIcon/>
+        <ResumeIcon/>
+        </>
     );
 }
 
