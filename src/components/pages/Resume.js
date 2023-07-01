@@ -162,7 +162,7 @@ export default function Resume() {
           <article>
             <h4 class="resume-bold">Education</h4>
             <div>
-              <p class="resume-bold">Grnad Rapids Community College</p>
+              <p class="resume-bold">Grand Rapids Community College</p>
               <p class="sm">Associate's Degree: Computer Programing</p>
               <p class="sm">
                 Job Training - Certificate of Compeletion: Computer Support

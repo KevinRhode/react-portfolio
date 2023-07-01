@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 // import NavTabs from './NavTabs';
 // import Home from './pages/Home';
 import About from './pages/About';
+import Resume from './pages/Resume'
 import Header from './Header';
 import Footer from './Footer';
 // import Blog from './pages/Blog';
@@ -20,8 +21,14 @@ export default function Navigation() {
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Blog') {
-      return <About />;
+    // if (currentPage === 'Portfolio') {
+    //   return <Portfolio />;
+    // }
+    // if (currentPage === 'Contact') {
+    //   return <Contact />;
+    // }
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     return <About />;
   };
