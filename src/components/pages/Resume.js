@@ -24,11 +24,11 @@ export default function Resume() {
             <div>
               <h4 class="resume-bold">Employment History</h4>
               <p class="resume-bold">
-                Arcade Game Technican, Craigs Cruisers OpCo
+                Arcade Game Technican, Craigs Cruisers OpCo 
                 <span>Oct 2021 - Current</span>
               </p>
               <p class="resume-bold">
-                Technical Director, Craigs Cruisers Family Fun Center<span>Feb 2021 - Oct 2022</span>
+                Technical Director, Craigs Cruisers Family Fun Center <span>Feb 2021 - Oct 2022</span>
               </p>
               <ul class="resume-list">
                 <li class="sm">
