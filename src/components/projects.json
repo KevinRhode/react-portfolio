@@ -1,8 +1,14 @@
 [
     {
-
+        "img":"",
+        "title":"Asset Management",
+        "linkToApp":"https://asset-mgt-sys-kevinrhode.herokuapp.com/",
+        "linkToRepo":"https://github.com/KevinRhode/asset-management-system"
     },
     {
-        
+        "img":"",
+        "title":"Asset Management",
+        "linkToApp":"https://asset-mgt-sys-kevinrhode.herokuapp.com/",
+        "linkToRepo":"https://github.com/KevinRhode/asset-management-system"
     }
 ]

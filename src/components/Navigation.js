@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-// import NavTabs from './NavTabs';
-// import Home from './pages/Home';
-import About from './pages/About';
-import Resume from './pages/Resume';
+
 import Header from './Header';
 import Footer from './Footer';
-// import Blog from './pages/Blog';
-import Contact from './form/Contact';
+
+import About from './pages/About';
+import Resume from './pages/Resume';
+import Contact from './form/contact';
+
+import Project from './Project';
 
 export default function Navigation() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -21,9 +22,9 @@ export default function Navigation() {
     if (currentPage === 'About') {
       return <About />;
     }
-    // if (currentPage === 'Portfolio') {
-    //   return <Portfolio />;
-    // }
+    if (currentPage === 'Portfolio') {
+      return <Project />;
+    }
     if (currentPage === 'Contact') {
       return <Contact />;
     }
