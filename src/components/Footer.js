@@ -5,12 +5,11 @@ import ResumeIcon from "./ResumeIcon";
 
 function Footer(){
     return (
-        
-        <>
-        <GitHubIcon/>
-        <LinkedInIcon/>
-        <ResumeIcon/>
-        </>
+      <>
+        <GitHubIcon />
+        <LinkedInIcon />
+        <ResumeIcon />
+      </>
     );
 }
 

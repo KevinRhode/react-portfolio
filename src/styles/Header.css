@@ -1,11 +1,14 @@
-.header {
+.headerGroup{
   background: #f9b713;
   min-height: 200px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
 }
-  
-.header h1 {
+.headerGroup h1 {
     margin: 0;
-    padding-top: 75px;
+    padding-top: 5px;
     text-align: center;
     color: white;
     font-size: 3rem;
@@ -14,12 +17,22 @@
 .nav.nav-tabs{
     list-style-type: none;
     display: flex;
+    flex-direction: column;
+    padding-inline-start: 0rem; /*override*/
+    width: 100%;
 }
-.headerGroup{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .nav-item{
-  margin: 0rem 0.5rem;
+  margin: 0.05rem 0.5rem; 
+  /* background-color: #f9b713;  */
+}
+.nav-item.active{
+  background-color: #3ee123 ;
+}
+
+.nav-link{
+  
+}
+.nav-link.active{
+
 }

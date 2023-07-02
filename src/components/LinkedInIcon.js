@@ -18,9 +18,7 @@ const styles = StyleSheet.create({
   });
 
 function LinkedInIcon() {
-  return (      
-    <img src={Logo} style={styles.tinyLogo} className="logo" alt="logo" />      
-  );
+  return <img src={Logo} style={styles.tinyLogo} className="logo" alt="logo" />;
 }
 
 export default LinkedInIcon;

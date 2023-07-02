@@ -8,6 +8,7 @@ import Resume from './pages/Resume';
 import Contact from './form/contact';
 
 import Project from './Project';
+import projects from './projects';
 
 export default function Navigation() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -19,11 +20,11 @@ export default function Navigation() {
          <About />
       );
     }
-    if (currentPage === 'About') {
+    if (currentPage === "About") {
       return <About />;
     }
     if (currentPage === 'Portfolio') {
-      return <Project />;
+      return <Project projects={projects} />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;
@@ -37,13 +38,13 @@ export default function Navigation() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <>
       {/* We are passing the currentPage from state and the function to update it */}
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
       {/* Here we are calling the footer which will return a component  */}
       <Footer/>
-    </div>
+    </>
   );
 }
