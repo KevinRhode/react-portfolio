@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 import About from './pages/About';
 import Resume from './pages/Resume';
-import Contact from './form/contact';
+import Contact from './form/Contact';
 
 import Project from './Project';
 import projects from './projects';

@@ -25,6 +25,7 @@
 .nav-item{
   margin: 0.05rem 0.5rem; 
   /* background-color: #f9b713;  */
+  cursor: pointer;
   
 }
 .nav-item.active{
