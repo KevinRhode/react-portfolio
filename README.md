@@ -1,8 +1,8 @@
-# PWA-Text-Editor
+# React-Portfolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)
 ## Description
-PWA-Text-Editor is a Progressive web applicatoin that's been created for use when working with note taking and code snippets. Styling helps users feel like they are coding in a IDE. It uses IndexedDB for data presistance, and localstorage as a backup. A service worker was also implemented in with this, allowing for offline mode and a faster experence.
+
 
   ## Technology Stack
 
@@ -66,6 +66,6 @@ To run the application use:
 
 ## Preview
 
-![Desktop Shortcut](client/src/images/shortcut.PNG)
-![Using with Browser](client/src/images/browser.PNG)
-![Using native](client/src/images/native.PNG)
+![]()
+![]()
+![]()
