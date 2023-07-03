@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, Image, StyleSheet} from 'react-native';
 import Logo from '../images/resume-svgrepo-com.svg';
+import { Link } from 'react-router-dom';
 
 const styles = StyleSheet.create({
   container: {
@@ -17,7 +18,7 @@ const styles = StyleSheet.create({
 });
 
 function ResumeIcon() {
-  return (      
+  return (       
     <img src={Logo} style={styles.tinyLogo} className="logo" alt="logo" />      
   );
 }

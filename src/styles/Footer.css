@@ -1,0 +1,13 @@
+
+.footerGroup{
+    text-align: center;   
+    background-color: blue;
+}
+.footerGroup img:hover{
+    opacity: 1;
+    
+}
+.footerGroup img{
+    padding: 0rem 0.5rem;
+    opacity: 1;
+}

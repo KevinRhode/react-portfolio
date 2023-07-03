@@ -1,6 +1,7 @@
 import React from 'react';
-import {View, Image, StyleSheet} from 'react-native';
+import {StyleSheet} from 'react-native';
 import Logo from '../images/github-mark.svg';
+import { Link } from 'react-router-dom';
 
 const styles = StyleSheet.create({
   container: {
@@ -16,9 +17,14 @@ const styles = StyleSheet.create({
   },
 });
 
-function GitHubIcon() {
-  return (      
-    <img src={Logo} style={styles.tinyLogo} className="logo" alt="logo" />      
+function GitHubIcon({pathToFollow}) {
+  return (  
+    
+      <Link to={pathToFollow? pathToFollow : "https://github.com/KevinRhode"} target="_blank" rel="noreferrer">
+        <img src={Logo} style={styles.tinyLogo} className="logo" alt="logo" /> 
+      </Link>
+       
+         
   );
 }
 

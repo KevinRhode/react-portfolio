@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, Image, StyleSheet} from 'react-native';
-import Logo from '../images/LI-In-Bug.png';
+import Logo from '../images/LI-In-Bug-black.png';
+import { Link } from 'react-router-dom';
 
 const styles = StyleSheet.create({
     container: {
@@ -18,7 +19,12 @@ const styles = StyleSheet.create({
   });
 
 function LinkedInIcon() {
-  return <img src={Logo} style={styles.tinyLogo} className="logo" alt="logo" />;
+  return (  
+
+  <Link to={`https://www.linkedin.com/in/kevin-rhode-0ab81695/`} target="_blank" rel="noreferrer">
+  <img src={Logo} style={styles.tinyLogo} className="logo" alt="logo" /> 
+  </Link>
+  );
 }
 
 export default LinkedInIcon;

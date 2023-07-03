@@ -1,14 +1,19 @@
 import React from "react";
 
+
+
+
 export default function Resume() {
     return (
       <div className="resume-form">
         <div className="main">
           <div className="edu-exp">
+            <div>
             <h3 className="resume-title">
-              Kevin Rhode
-              <span className="resume-subtitle">
-                Full Stack Developer and Game Technican
+              Kevin Rhode 
+              <span>, </span>
+              <span className="resume-subtitle"> 
+                 Full Stack Developer and Game Technican
               </span>
             </h3>
             {/* <form action="" target="_blank">
@@ -27,7 +32,7 @@ export default function Resume() {
               <div>
                 <h4 className="resume-bold">Employment History</h4>
                 <p className="resume-bold">
-                  Arcade Game Technican, Craigs Cruisers OpCo
+                  Games & Technology Manager, Craigs Cruisers OpCo
                   <span>Oct 2021 - Current</span>
                 </p>
                 <p className="resume-bold">
@@ -168,6 +173,10 @@ export default function Resume() {
                 </ul>
               </div>
             </article>
+           
+            
+            </div>
+            <div className="sidebar">
             <article>
               <h4 className="resume-bold">Education</h4>
               <div>
@@ -190,7 +199,7 @@ export default function Resume() {
                 KevinRhode@Hotmail.com
               </a>
             </article>
-            <article className="sidebar">
+            <article >
               <p className="resume-bold">Skills</p>
               <p className="sm">Ability to Multitask</p>
               <p className="sm">Ability to Work Under Pressure</p>
@@ -217,13 +226,14 @@ export default function Resume() {
               <p className="sm">Communication Skills</p>
               <p className="sm">Detail-oriented</p>
             </article>
-            <article className="sidebar">
+            <article >
               <p className="resume-bold">Hobbies</p>
               <p className="sm">
                 Spending Time with Friends, playing card games, playing board
                 games, playing video games, listening to music, Watching Hockey
               </p>
             </article>
+            </div>
           </div>
         </div>
       </div>
