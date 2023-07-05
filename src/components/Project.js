@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import GitHubIcon from './GitHubIcon';
+import { ImageBackground } from 'react-native';
+// const images = require.context('../images/projects', true);
+// const loadImage = imageName => (images(`./${imageName}`).default);
+
 
 
 
@@ -18,20 +22,19 @@ export default function Project({projects}) {
           </li>
         ))} */}
       {/* </ul> */}
+      {console.log({projects})}
       {projects?.map(({id,img,linkToApp,linkToRepo,title,desp}) => (
-        <>
-         
-        <div className="card" key={id} style={{ 
-          backgroundImage:`url(${img})`,   
-          backgroundSize:'100%',
-          backgroundRepeat: 'no-repeat',      
-        }}>
-          
+        
+       
+        <div className="card" key={id} > 
+        <ImageBackground alt='img' source={require(`../images/projects/${img}`)}
+        style={{width: '100%', height: '100%' }}>
+        
+           
           <div className="card-header" style={{
             alignItems:'',
             zIndex:'1',
-          }}>
-            
+          }}>            
           <Link to={linkToApp} style={{
             textAlign:'start',
           }}>
@@ -42,15 +45,11 @@ export default function Project({projects}) {
           </div>
           <div className="card-body">
             <p className="card-text">
-              {desp}
-              <br />
-              
-              {/* <Link to={project.linkToRepo}>  
-              Project Name Here
-              </Link>             */}
+              {desp}            
             </p>
           </div>
-        </div></>
+          </ImageBackground> 
+        </div>
       ))}
     </div>
     
