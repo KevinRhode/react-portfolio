@@ -88,16 +88,27 @@
   margin: 0.25rem;  
   width: 99%;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .card {
-  margin: 0rem 0.25rem;
-  /* background-color: var(--main-bg-color); */
+  margin: 0.25rem 0.25rem;
+  background-color: var(--main-bg-color);
   border-radius: 0.25rem;
   padding: 0.5rem;
+  flex: 1;
+  flex-basis: 33%;
 }
 .card-header{
   display: flex;
   opacity: 0;
+  padding: 0.25rem;
+}
+.card-header a{
+  padding:  0rem 0.5rem;
+}
+.card-body{
+  padding: 0.25rem;
 }
 .card-text{
   opacity: 0;
@@ -109,6 +120,21 @@
   opacity: 1;
 }
 
+.form * {
+  padding: 0.25rem;
+  margin: 0.25rem 0rem;
+}
+
+
+@media screen and (min-width:422px) {  
+.container{
+  flex-direction: row;
+
+}
+.card{
+  min-height: 180px;
+}
+}
 @media screen and (min-width:500px) { 
 .headerGroup{
   flex-direction: row;
@@ -120,6 +146,23 @@
 @media screen and (min-width:627px) {  
 
 }
-@media screen and (min-width:768px) {
-
+@media screen and (min-width:868px) {
+.card{
+  min-height: 400px;
 }
+}
+@media screen and (min-width:1000px) {
+  /* .card{
+    flex-basis: 28%;
+  } */
+  .container{
+    margin: auto;
+    max-width: 1000px;
+  }
+}
+/* Dev for 3 - leaving at 2 from mock up */
+/* @media screen and (min-width:1000px) {
+  .card{
+    flex-basis: 28%;
+  }
+} */
