@@ -53,6 +53,7 @@ function Contact() {
       );
       return;
     }
+
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName('');
     setMessage('');
@@ -83,7 +84,7 @@ function Contact() {
           name="message"
           onChange={handleInputChange}          
           rows="3"
-          placeholder=" Message..."
+          placeholder=" Message...              ATTENTION:EMAILS HAVE NOT BE FINISHED PLEASE DO NOT EXPECT AN ANSWER FROM YOUR MESSAGES"
         />
         <button type="button" onClick={handleFormSubmit}>Submit</button>
       </form>

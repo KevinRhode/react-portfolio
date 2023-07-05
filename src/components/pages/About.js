@@ -23,13 +23,11 @@ export default function About() {
       <h2>About Page</h2>
       <img src={ProfileLogo} alt="black and white profile logo placeholder" style={styles.tinyLogo} /> 
          
-      <p>
-      Hi, my name is Kevin. I program for a living, this website is one of my creations. I live in the Grand Rapids area and enjoy socializing with my friends! You'll find me in co-op sports leagues for fun. I also enjoy watching hockey and going to watch live sports. 
-                
-                    The rest of my time I spend with my wife and son. We love to go ice skating and exploring the outdoors. We have many cherished memories so far and hopefully many more to come. 
-                    
-        information About myself which i will share with the world! basic about page that will be filled with awsome info!!!!!!!!
-      </p>
+      <p>Hey there! I'm Kevin, a passionate software developer residing in the vibrant Grand Rapids area. Programming is not just my profession but also my creative outlet, and I take great pride in crafting innovative websites like the one you're currently browsing. When I'm not engrossed in coding, you'll likely find me immersed in the lively atmosphere of co-op sports leagues, where I enjoy both the thrill of competition and the joy of socializing with my friends.
+      </p><p>
+Sports play a significant role in my life, and as an avid hockey enthusiast, I make it a point to attend live games whenever possible. The energy and camaraderie of those events never fail to captivate me. However, my greatest joy comes from spending quality time with my loving wife and adorable son. Together, we embark on exciting adventures, whether it's lacing up our skates for some ice skating fun or exploring the great outdoors. We've already created countless cherished memories, and we eagerly look forward to making many more in the future.
+    </p><p>
+As a software developer who values work-life balance, I believe that finding fulfillment in both professional and personal realms is crucial. So, whether I'm coding complex algorithms or cheering passionately for my favorite team, I strive to embrace every aspect of life with enthusiasm and dedication. </p>
     </div>
   );
 }
