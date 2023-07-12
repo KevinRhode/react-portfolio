@@ -213,6 +213,7 @@ export default function Resume() {
               <p className="sm">MySQL</p>
               <p className="sm">MongoDB</p>
               <p className="sm">Git</p>
+              <p className="sm">C#</p>              
               <p className="sm">Microsoft Office Suite</p>
               <p className="sm">Interpersonal Skills</p>
               <p className="sm">Creativity</p>
