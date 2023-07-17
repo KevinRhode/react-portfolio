@@ -50,11 +50,6 @@
   border-radius: 0.5rem;
   padding: 0rem 1rem;
 }
-
-.nav-link {
-}
-.nav-link.active {
-}
 .footerGroup {
   text-align: center;
   background-color: var(--main-bg-color);
@@ -68,7 +63,6 @@
   padding-top: 0.3rem;
   opacity: 0.6;
 }
-
 .sm {
   font-size: 0.9rem;
   margin-block-start: 0.05rem;

@@ -1,24 +1,29 @@
 # React-Portfolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)
+
 ## Description
 
+```md
+Kevin Rhode's development portfolio.
+```
 
-  ## Technology Stack
+## Technology Stack
 
-  ![javaScript](https://img.shields.io/badge/-javascript-61DAFB?color=green&style=flat)
-  ![react](https://img.shields.io/badge/-react-61DAFB?color=darkblue&style=flat)
-  ![gh-pages](https://img.shields.io/badge/-gh_pages-61DAFB?color=purple&style=flat)
-
+![javaScript](https://img.shields.io/badge/-javascript-61DAFB?color=green&style=flat)
+![react](https://img.shields.io/badge/-react-61DAFB?color=darkblue&style=flat)
+![gh-pages](https://img.shields.io/badge/-gh_pages-61DAFB?color=purple&style=flat)
 
 ## User Story
+
 ```md
 AS AN employer looking for candidates with experience building single-page applications
 I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position
 ```
 
-## Acceptance Criteria 
+## Acceptance Criteria
+
 ```md
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
@@ -47,26 +52,32 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
-
 ## Installation
 
 Clone Repo - git clone git@github.com:KevinRhode/react-portfolio.git
-  ```
-In Git Terminal - navigate to the file location of package.json  
+
+````
+In Git Terminal - navigate to the file location of package.json
 ```md
-  run : npm install
-```
+run : npm install
+````
+
 ## Usage
 
 To start the App Locally
+
 ```md
- npm run start
+npm run start
 ```
+
 To build the App
+
 ```md
 npm run build
 ```
+
 To deploy by gh-pages, script has been modified to build before deploy
+
 ```md
 npm run deploy
 ```
@@ -76,6 +87,7 @@ npm run deploy
 
 ## Preview
 
-![]()
-![]()
-![]()
+![About Me](./src/images/kevinrhode.github.io_react-portfolio_.png)
+![Projects](./src/images/kevinrhode.github.io_react-portfolio_projects.png)
+![Contact](./src/images/kevinrhode.github.io_react-portfolio_aboutme.png)
+![Resume](./src/images/kevinrhode.github.io_react-portfolio_resume.png)

@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
     width: 66,
     height: 58,
   },
+  
 });
 
 export default function About() {
