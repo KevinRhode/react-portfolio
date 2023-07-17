@@ -1,19 +1,16 @@
 import React from "react";
 
-
-
-
 export default function Resume() {
-    return (
-      <div className="resume-form">
-        <div className="main">
-          <div className="edu-exp">
-            <div>
+  return (
+    <div className="resume-form">
+      <div className="main">
+        <div className="edu-exp">
+          <div>
             <h3 className="resume-title">
-              Kevin Rhode 
+              Kevin Rhode
               <span>, </span>
-              <span className="resume-subtitle"> 
-                 Full Stack Developer and Game Technican
+              <span className="resume-subtitle">
+                Full Stack Developer and Game Technican
               </span>
             </h3>
             {/* <form action="" target="_blank">
@@ -133,7 +130,59 @@ export default function Resume() {
                     Trained staff during demonstrations, meetings, and
                     conferences
                   </li>
-                  <li className="sm">Supported Various Point of Sale system</li>
+                  <li className="sm">
+                    Supported Various Point of Sale systems, FuturePOS, SpotOn
+                    POS, Speedline POS, Diamond Touch
+                  </li>
+
+                  <li className="sm">
+                    Installed and supported network systems, including
+                    workstations, servers, and infrastructure devices
+                  </li>
+                  <li className="sm">
+                    Created and maintained documentation of technology systems
+                    and applications in accordance with office standards and
+                    disaster planning best practices
+                  </li>
+                  <li className="sm">
+                    Provided staff and customers assistance in the use of
+                    technology, incorporating effective use to delivery training
+                    both in groups and one-on-one settings
+                  </li>
+                  <li className="sm">
+                    Ensured accurate inventory of devices, related hardware, and
+                    software equipment
+                  </li>
+                  <li className="sm">
+                    Handled escalated tier 2/3 issues, while documenting work
+                    for company’s knowledge base
+                  </li>
+                  <li className="sm">
+                    Support telecommunication systems, Sky Switch (Hosted PBX)
+                  </li>
+                  <li className="sm">
+                    Performed installation, maintenance, and troubleshooting of
+                    technology hardware, and peripheral devices
+                  </li>
+                  <li className="sm">
+                    Trained staff and customers on hosted software – back office
+                    / management and user interface
+                  </li>
+                  <li className="sm">
+                    Handled all issues related to technology hardware and hosted
+                    PBX system
+                  </li>
+                  <li className="sm">
+                    Followed up with clients when appropriate to keep open
+                    communication lines
+                  </li>
+                  <li className="sm">
+                    Created PureVoiceCallerID software to remove proprietary
+                    hardware device at client locations
+                  </li>
+                  <li className="sm">
+                    Support various operating systems: Windows 10, 7, Xp,
+                  </li>
                 </ul>
               </div>
               <div>
@@ -173,10 +222,8 @@ export default function Resume() {
                 </ul>
               </div>
             </article>
-           
-            
-            </div>
-            <div className="sidebar">
+          </div>
+          <div className="sidebar">
             <article>
               <h4 className="resume-bold">Education</h4>
               <div>
@@ -199,7 +246,7 @@ export default function Resume() {
                 KevinRhode@Hotmail.com
               </a>
             </article>
-            <article >
+            <article>
               <p className="resume-bold">Skills</p>
               <p className="sm">Ability to Multitask</p>
               <p className="sm">Ability to Work Under Pressure</p>
@@ -213,7 +260,7 @@ export default function Resume() {
               <p className="sm">MySQL</p>
               <p className="sm">MongoDB</p>
               <p className="sm">Git</p>
-              <p className="sm">C#</p>              
+              <p className="sm">C#</p>
               <p className="sm">Microsoft Office Suite</p>
               <p className="sm">Interpersonal Skills</p>
               <p className="sm">Creativity</p>
@@ -227,16 +274,16 @@ export default function Resume() {
               <p className="sm">Communication Skills</p>
               <p className="sm">Detail-oriented</p>
             </article>
-            <article >
+            <article>
               <p className="resume-bold">Hobbies</p>
               <p className="sm">
                 Spending Time with Friends, playing card games, playing board
                 games, playing video games, listening to music, Watching Hockey
               </p>
             </article>
-            </div>
           </div>
         </div>
       </div>
-    );
+    </div>
+  );
 }

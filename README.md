@@ -7,7 +7,9 @@
   ## Technology Stack
 
   ![javaScript](https://img.shields.io/badge/-javascript-61DAFB?color=green&style=flat)
-  ![react](https://img.shields.io/badge/-express.js-61DAFB?color=red&style=flat)
+  ![react](https://img.shields.io/badge/-react-61DAFB?color=darkblue&style=flat)
+  ![gh-pages](https://img.shields.io/badge/-gh_pages-61DAFB?color=purple&style=flat)
+
 
 ## User Story
 ```md
@@ -56,11 +58,19 @@ In Git Terminal - navigate to the file location of package.json
 ```
 ## Usage
 
-To run the application use:
-
+To start the App Locally
 ```md
  npm run start
 ```
+To build the App
+```md
+npm run build
+```
+To deploy by gh-pages, script has been modified to build before deploy
+```md
+npm run deploy
+```
+
 [Application Deployed](https://kevinrhode.github.io/react-portfolio/)  
 [Application Repo](https://github.com/KevinRhode/react-portfolio)
 

@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
 
 export default function About() {
   return (
-    <div>
+    <div style={{padding:"1rem"}}>
       <h2>About Page</h2>
       <img src={ProfileLogo} alt="black and white profile logo placeholder" style={styles.tinyLogo} /> 
          
