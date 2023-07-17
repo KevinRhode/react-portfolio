@@ -91,3 +91,8 @@ npm run deploy
 ![Projects](./src/images/kevinrhode.github.io_react-portfolio_projects.png)
 ![Contact](./src/images/kevinrhode.github.io_react-portfolio_aboutme.png)
 ![Resume](./src/images/kevinrhode.github.io_react-portfolio_resume.png)
+
+## Credits
+
+[Erin Keller](https://github.com/erin-m-keller)
+  -styling ideas for resume
