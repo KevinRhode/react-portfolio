@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2fa1742c.css",
-    "main.js": "/react-portfolio/static/js/main.96764d4c.js",
+    "main.css": "/react-portfolio/static/css/main.47778643.css",
+    "main.js": "/react-portfolio/static/js/main.36e96d13.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/mern-search-engine-dab9f63f201f.herokuapp.com_.png": "/react-portfolio/static/media/mern-search-engine-dab9f63f201f.herokuapp.com_.f9264dec81fa6e9ec8a1.png",
     "static/media/mvc-tech-blog-kevinrhode.herokuapp.com_.png": "/react-portfolio/static/media/mvc-tech-blog-kevinrhode.herokuapp.com_.8787be643901b49872b6.png",
@@ -15,12 +15,12 @@
     "static/media/resume-svgrepo-com.svg": "/react-portfolio/static/media/resume-svgrepo-com.78e57ed0e2ad7e01d8ba739c46d37fab.svg",
     "static/media/github-mark.svg": "/react-portfolio/static/media/github-mark.d292bb24e4a9cdbc48e9dad0b2c383e4.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.2fa1742c.css.map": "/react-portfolio/static/css/main.2fa1742c.css.map",
-    "main.96764d4c.js.map": "/react-portfolio/static/js/main.96764d4c.js.map",
+    "main.47778643.css.map": "/react-portfolio/static/css/main.47778643.css.map",
+    "main.36e96d13.js.map": "/react-portfolio/static/js/main.36e96d13.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fa1742c.css",
-    "static/js/main.96764d4c.js"
+    "static/css/main.47778643.css",
+    "static/js/main.36e96d13.js"
   ]
 }
