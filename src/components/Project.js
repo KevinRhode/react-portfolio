@@ -15,8 +15,8 @@ export default function Project({ projects }) {
             <ImageBackground
               alt="screen shot of the projects homescreen"
               source={require(`../images/projects/${img}`)}
-              style={{ width: "100%", height: "100%" ,opacity:0.8}}
-            >
+              style={{ width: "100%", height: "100%" ,}}
+            ></ImageBackground>
               <div
                 className="card-header"
                 style={{
@@ -33,14 +33,16 @@ export default function Project({ projects }) {
                   {title}
                 </Link>
                 <GitHubIcon pathToFollow={linkToRepo}></GitHubIcon>
-              </div>
-              <div className="card-body">
                 <p className="card-text">{desp}</p>
               </div>
-            </ImageBackground>
+              
+            
           </div>
         ))}
       </div>
     </>
   );
 }
+
+
+
