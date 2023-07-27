@@ -227,15 +227,22 @@ export default function Resume() {
             <article>
               <h4 className="resume-bold">Education</h4>
               <div>
-                <p className="resume-bold">Grand Rapids Community College</p>
-                <p className="sm">Associate's Degree: Computer Programing</p>
-                <p className="sm">
-                  Job Training - Certificate of Compeletion: Computer Support
-                  Technician
+                <p className="resume-bold">Michigan State University, East Lansing MI</p>
+                <p className="sm">Certificate:</p>
+                <p className="sm">Full Stack Web Development
                 </p>
               </div>
               <div>
-                <p className="resume-bold">Mount Pleasant High School</p>
+                <p className="resume-bold">Grand Rapids Community College, Grand Rapids MI</p>
+                <p className="sm">Associate's Degree:</p>
+                <p className="sm">Computer Programing</p>
+                <p className="sm">Certificate:</p>
+                <p className="sm">Computer Support Technician
+                </p>
+               
+              </div>
+              <div>
+                <p className="resume-bold">Mount Pleasant High School, Mount Pleasant MI</p>
                 <p className="sm">Diploma</p>
               </div>
             </article>
