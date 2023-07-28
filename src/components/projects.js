@@ -31,7 +31,7 @@ const projects = [
     img: "mern-search-engine-dab9f63f201f.herokuapp.com_.png",
     title: "MERN-Search-Engine",
     desp:'RESTFul Api Refactor to GraphQL',
-    linkToApp: "https://pwa-text-editor-kevinrhode-e341d0818889.herokuapp.com/",
+    linkToApp: "https://mern-search-engine-dab9f63f201f.herokuapp.com/",
     linkToRepo: "https://github.com/KevinRhode/MERN-Search-Engine",
   },
   {

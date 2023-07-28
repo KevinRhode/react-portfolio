@@ -93,10 +93,13 @@
   display: flex;
   opacity: 0;
   padding: 0.25rem;
+  flex-direction: column;
+  justify-content: space-evenly;
  
 }
 .card-header a {
   padding: 0rem 0.5rem;
+ 
 }
 .card .card-header{
   background-color: hsla(0,0%,100%,.5);

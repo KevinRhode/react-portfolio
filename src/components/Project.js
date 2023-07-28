@@ -9,40 +9,39 @@ export default function Project({ projects }) {
   return (
     <>
       <h1>Projects</h1>
-      <div className="container">        
+      <div className="container">
         {projects?.map(({ id, img, linkToApp, linkToRepo, title, desp }) => (
           <div className="card" key={id}>
             <ImageBackground
               alt="screen shot of the projects homescreen"
               source={require(`../images/projects/${img}`)}
-              style={{ width: "100%", height: "100%" ,}}
+              style={{ width: "100%", height: "100%" }}
             ></ImageBackground>
-              <div
-                className="card-header"
+            <div
+              className="card-header"
+              style={{
+                alignItems: "",
+                zIndex: "1",
+              }}
+            >
+              
+              <Link
+                to={linkToApp}
                 style={{
-                  alignItems: "",
-                  zIndex: "1",
+                  textAlign: "start",
+                  fontSize: '3rem'
                 }}
               >
-                <Link
-                  to={linkToApp}
-                  style={{
-                    textAlign: "start",
-                  }}
-                >
-                  {title}
-                </Link>
-                <GitHubIcon pathToFollow={linkToRepo}></GitHubIcon>
-                <p className="card-text">{desp}</p>
-              </div>
+                {title}
+              </Link>
+              <GitHubIcon pathToFollow={linkToRepo}></GitHubIcon>
               
-            
+              
+              <p style={{backgroundColor:'#000',borderRadius:'0.5rem',color:'#FFF', padding:'0.3rem'}} className="card-text">{desp}</p>
+            </div>
           </div>
         ))}
       </div>
     </>
   );
 }
-
-
-

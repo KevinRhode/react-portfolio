@@ -284,7 +284,7 @@ export default function Resume() {
             <article>
               <p className="resume-bold">Hobbies</p>
               <p className="sm">
-                Spending Time with Friends, playing card games, playing board
+                Spending Time with Friends, coed sports, playing card games, playing board
                 games, playing video games, listening to music, Watching Hockey
               </p>
             </article>
