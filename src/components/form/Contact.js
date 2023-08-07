@@ -61,7 +61,7 @@ function Contact() {
   };
 
   return (
-    <div style={{padding:'1rem',}}>      
+    <div style={{padding:'1rem',flexGrow:'1'}}>      
       <form className="form" style={{display:'flex',flexDirection:'column',margin:'0.5rem'}}>
       <input
           value={userName}
@@ -76,15 +76,15 @@ function Contact() {
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder=" email"
+          placeholder=" Email"
         />
        
         <textarea
           value={message}
           name="message"
           onChange={handleInputChange}          
-          rows="3"
-          placeholder=" Message...              ATTENTION:EMAILS HAVE NOT BE FINISHED PLEASE DO NOT EXPECT AN ANSWER FROM YOUR MESSAGES"
+          rows="5"
+          placeholder=" ATTENTION:EMAILS HAVE NOT BE FINISHED PLEASE DO NOT EXPECT AN ANSWER FROM YOUR MESSAGES"
         />
         <button type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
