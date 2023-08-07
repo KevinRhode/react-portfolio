@@ -1,7 +1,8 @@
 :root {
   --main-bg-color: #007585;
   --header-text-color: #fff;
-  --navitem-border-color: #fff;
+  --navitem-border-color: #000000;
+  --navitem-border-active-color: #fff;
   --navitem-active-color: #038c9e;
   --footer-icon-backlit-color: #fff;
 }
@@ -43,10 +44,13 @@
   /* background-color: #f9b713;  */
   cursor: pointer;
   text-align: center;
+  border: var(--navitem-border-color) solid 0.25rem;
+  border-radius: 0.5rem;
+  padding: 0rem 1rem;
 }
 .nav-item.active {
   background-color: var(--navitem-active-color);
-  border: var(--navitem-border-color) solid 0.25rem;
+  border: var(--navitem-border-active-color) solid 0.25rem;
   border-radius: 0.5rem;
   padding: 0rem 1rem;
 }
