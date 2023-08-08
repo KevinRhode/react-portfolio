@@ -28,8 +28,8 @@ export default function Project({ projects }) {
               <Link
                 to={linkToApp}
                 style={{
-                  textAlign: "start",
-                  fontSize: '3rem'
+                  textAlign: "start",                  
+                  fontFamily: 'Permanent Marker, cursive',
                 }}
               >
                 {title}
