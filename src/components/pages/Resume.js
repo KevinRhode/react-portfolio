@@ -10,7 +10,7 @@ export default function Resume() {
               Kevin Rhode
               <span>, </span>
               <span className="resume-subtitle">
-                Full Stack Developer and Game Technican
+                Full Stack Developer and Games/Technology Manager
               </span>
             </h3>
             {/* <form action="" target="_blank">
