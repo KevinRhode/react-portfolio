@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.01ba0ab3.css",
-    "main.js": "/react-portfolio/static/js/main.929d7d73.js",
+    "main.css": "/react-portfolio/static/css/main.5f3d5461.css",
+    "main.js": "/react-portfolio/static/js/main.aad256c0.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/mern-search-engine-dab9f63f201f.herokuapp.com_.png": "/react-portfolio/static/media/mern-search-engine-dab9f63f201f.herokuapp.com_.f9264dec81fa6e9ec8a1.png",
+    "static/media/kevinrhoderesume.pdf": "/react-portfolio/static/media/kevinrhoderesume.478e879a2d65293158f3.pdf",
     "static/media/mvc-tech-blog-kevinrhode.herokuapp.com_.png": "/react-portfolio/static/media/mvc-tech-blog-kevinrhode.herokuapp.com_.8787be643901b49872b6.png",
     "static/media/asset-mgt-sys-kevinrhode.herokuapp.com_.png": "/react-portfolio/static/media/asset-mgt-sys-kevinrhode.herokuapp.com_.aaa3f19f8b9f307eaded.png",
     "static/media/express-note-taker-kevinrhode.herokuapp.com_.png": "/react-portfolio/static/media/express-note-taker-kevinrhode.herokuapp.com_.61fa3e97add68149eda1.png",
@@ -15,12 +16,12 @@
     "static/media/resume-svgrepo-com.svg": "/react-portfolio/static/media/resume-svgrepo-com.78e57ed0e2ad7e01d8ba739c46d37fab.svg",
     "static/media/github-mark.svg": "/react-portfolio/static/media/github-mark.d292bb24e4a9cdbc48e9dad0b2c383e4.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.01ba0ab3.css.map": "/react-portfolio/static/css/main.01ba0ab3.css.map",
-    "main.929d7d73.js.map": "/react-portfolio/static/js/main.929d7d73.js.map",
+    "main.5f3d5461.css.map": "/react-portfolio/static/css/main.5f3d5461.css.map",
+    "main.aad256c0.js.map": "/react-portfolio/static/js/main.aad256c0.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01ba0ab3.css",
-    "static/js/main.929d7d73.js"
+    "static/css/main.5f3d5461.css",
+    "static/js/main.aad256c0.js"
   ]
 }
