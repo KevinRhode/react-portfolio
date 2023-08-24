@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 export default function Resume() {
   return (
     <div className="resume-form">
@@ -252,6 +254,8 @@ export default function Resume() {
               <a className="sm" href="mailto:kevinrhode@hotmail.com">
                 KevinRhode@Hotmail.com
               </a>
+              <p className="sm">(616) 916-4140</p>
+              <a className="sm" href="https://www.linkedin.com/in/kevin-rhode-0ab81695/"> https://www.linkedin.com/in/kevin-rhode-0ab81695/</a>
             </article>
             <article>
               <p className="resume-bold">Skills</p>

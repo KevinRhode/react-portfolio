@@ -1,4 +1,5 @@
 import React from 'react';
+import DownloadButton from "./DownloadButton";
 // Here we are importing a CSS file as a dependency
 import '../styles/main-css.css';
 
@@ -33,6 +34,8 @@ function Header({ currentPage, handlePageChange }) {
           Resume
           
         </li>
+        {currentPage === "Resume" ? <DownloadButton /> : null}
+       
       </ul>
     </div>
   );
