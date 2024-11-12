@@ -31,8 +31,8 @@ export default function Resume() {
               <div>
                 <h4 className="resume-bold">Employment History</h4>
                 <p className="resume-bold">
-                  Games & Technology Manager, Craigs Cruisers OpCo
-                  <span>Oct 2021 - Current</span>
+                  Games & Technology Manager, Craigs Cruisers OpCo 
+                  <span>Oct 2022 - Sep 2024</span>
                 </p>
                 <p className="resume-bold">
                   Technical Director, Craigs Cruisers Family Fun Center{" "}
@@ -107,7 +107,7 @@ export default function Resume() {
               </div>
               <div>
                 <p className="resume-bold">
-                  Support and Development Manager,&nbsp;PUREPOS, Grandvile MI
+                  Support and Development Manager,&nbsp;PUREPOS, Grandville MI 
                   <span>May 2017 – Feb 2021</span>
                 </p>
                 <ul className="resume-list">

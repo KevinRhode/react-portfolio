@@ -141,6 +141,16 @@
   margin: 0.25rem 0rem;
 }
 
+.downloadres {
+  display: flex;
+}
+
+.downloadbtn {
+  flex-grow: 1;
+  margin: .05rem .5rem;
+  min-height: 35px;
+}
+
 @media screen and (min-width: 422px) {
   .container {
     flex-direction: row;
@@ -150,14 +160,7 @@
     min-width: 180px;
   }
 }
-@media screen and (min-width: 500px) {
-  .headerGroup {
-    flex-direction: row;
-  }
-  .nav.nav-tabs {
-    flex-direction: row;
-  }
-}
+
 @media screen and (min-width: 658px) {
   .card {
     min-height: 400px;
@@ -166,13 +169,21 @@
     font-size: 2rem;
   }
 }
-@media screen and (min-width: 868px) {
-
+@media screen and (min-width: 900px) {
+  .headerGroup {
+    flex-direction: row;
+  }
+  .nav.nav-tabs {
+    flex-direction: row;
+  }
+ 
 }
 @media screen and (min-width: 1000px) {
+
   .card{
     flex-basis: 28%;
   }
+
   .edu-exp {
     display: flex;
     padding: 0.5rem;
@@ -182,10 +193,5 @@
     margin: auto;
     max-width: 90%;
   }
+
 }
-/* Dev for 3 - leaving at 2 from mock up */
-/* @media screen and (min-width:1000px) {
-  .card{
-    flex-basis: 28%;
-  }
-} */
