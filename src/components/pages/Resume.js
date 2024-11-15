@@ -35,7 +35,7 @@ export default function Resume() {
                   <span>Oct 2022 - Sep 2024</span>
                 </p>
                 <p className="resume-bold">
-                  Technical Director, Craigs Cruisers Family Fun Center{" "}
+                  Web Developer, Craigs Cruisers Family Fun Center{" "}
                   <span>Feb 2021 - Oct 2022</span>
                 </p>
                 <ul className="resume-list">

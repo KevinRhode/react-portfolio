@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.01ba0ab3.css",
-    "main.js": "/react-portfolio/static/js/main.929d7d73.js",
+    "main.css": "/react-portfolio/static/css/main.f83f0998.css",
+    "main.js": "/react-portfolio/static/js/main.413a1353.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/mern-search-engine-dab9f63f201f.herokuapp.com_.png": "/react-portfolio/static/media/mern-search-engine-dab9f63f201f.herokuapp.com_.f9264dec81fa6e9ec8a1.png",
+    "static/media/kevinrhoderesume.pdf": "/react-portfolio/static/media/kevinrhoderesume.478e879a2d65293158f3.pdf",
     "static/media/mvc-tech-blog-kevinrhode.herokuapp.com_.png": "/react-portfolio/static/media/mvc-tech-blog-kevinrhode.herokuapp.com_.8787be643901b49872b6.png",
     "static/media/asset-mgt-sys-kevinrhode.herokuapp.com_.png": "/react-portfolio/static/media/asset-mgt-sys-kevinrhode.herokuapp.com_.aaa3f19f8b9f307eaded.png",
     "static/media/express-note-taker-kevinrhode.herokuapp.com_.png": "/react-portfolio/static/media/express-note-taker-kevinrhode.herokuapp.com_.61fa3e97add68149eda1.png",
     "static/media/nosql-Social-Network.jpg": "/react-portfolio/static/media/nosql-Social-Network.9aa2f2f16cc749d1321d.jpg",
     "static/media/pwa-text-editor-kevinrhode-e341d0818889.herokuapp.com_.png": "/react-portfolio/static/media/pwa-text-editor-kevinrhode-e341d0818889.herokuapp.com_.e7f3c95fb1437ebb8cb0.png",
-    "static/media/mysql-logo-svgrepo-com.svg": "/react-portfolio/static/media/mysql-logo-svgrepo-com.5dbd7ffb56a921cecde4.svg",
+    "static/media/mysql-logo-svgrepo-com.svg": "/react-portfolio/static/media/mysql-logo-svgrepo-com.17e572d590819cbe5cac.svg",
     "static/media/sequelize-svgrepo-com.svg": "/react-portfolio/static/media/sequelize-svgrepo-com.3719f1f11aa4bcfc1210.svg",
     "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "static/media/resume-svgrepo-com.svg": "/react-portfolio/static/media/resume-svgrepo-com.78e57ed0e2ad7e01d8ba739c46d37fab.svg",
+    "static/media/resume-svgrepo-com.svg": "/react-portfolio/static/media/resume-svgrepo-com.bd11b732b5eb7505e7fa05408e4c40fc.svg",
     "static/media/github-mark.svg": "/react-portfolio/static/media/github-mark.d292bb24e4a9cdbc48e9dad0b2c383e4.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.01ba0ab3.css.map": "/react-portfolio/static/css/main.01ba0ab3.css.map",
-    "main.929d7d73.js.map": "/react-portfolio/static/js/main.929d7d73.js.map",
+    "main.f83f0998.css.map": "/react-portfolio/static/css/main.f83f0998.css.map",
+    "main.413a1353.js.map": "/react-portfolio/static/js/main.413a1353.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01ba0ab3.css",
-    "static/js/main.929d7d73.js"
+    "static/css/main.f83f0998.css",
+    "static/js/main.413a1353.js"
   ]
 }
