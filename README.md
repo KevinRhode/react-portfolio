@@ -90,7 +90,6 @@ npm run deploy
 ![About Me](./src/images/kevinrhode.github.io_react-portfolio_.png)
 ![Projects](./src/images/kevinrhode.github.io_react-portfolio_projects.png)
 ![Contact](./src/images/kevinrhode.github.io_react-portfolio_aboutme.png)
-![Resume](./src/images/kevinrhode.github.io_react-portfolio_resume.png)
 
 ## Credits
 
