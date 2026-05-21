@@ -1,0 +1,43 @@
+.headerGroup{
+  background: #f9b713;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.headerGroup h1 {
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+  
+.nav.nav-tabs{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0rem; /*override*/
+    width: 100%;
+}
+
+.nav-item{
+  margin: 0.05rem 0.5rem; 
+  /* background-color: #f9b713;  */
+  cursor: pointer;
+  text-align: center;
+  
+}
+.nav-item.active{
+  background-color: #eb9b07 ;
+  border:#ddd8cf solid 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.nav-link{
+  
+}
+.nav-link.active{
+
+}
